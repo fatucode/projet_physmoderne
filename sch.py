@@ -118,7 +118,7 @@ dt    = t[1] - t[0]
 #         1re colonne = paquet initial ; le reste = vide (empty)
 psi = np.empty((NX, NT), dtype=complex)
  
-# --- paquet gaussien initial (convention accordee au prof : a = 1/SIGMA_prof) ---
+# --- paquet gaussien initial  ---
 K0 = 1.0
 X0 = -20.0
 SIGMA_PROF = 0.2
